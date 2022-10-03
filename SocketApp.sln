@@ -7,11 +7,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleServer", "ConsoleSer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleClient", "ConsoleClient\ConsoleClient.csproj", "{6831ABBA-8870-4452-8900-48F0FA3DDA92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPConsoleChat", "TCPConsoleChat\TCPConsoleChat.csproj", "{4EB7F3E9-8F42-469B-B618-30180B09DF84}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCPConsoleChat", "TCPConsoleChat\TCPConsoleChat.csproj", "{4EB7F3E9-8F42-469B-B618-30180B09DF84}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPConaoleLib", "TCPConaoleLib\TCPConaoleLib.csproj", "{C3F50733-BA82-4556-866A-6AE320CB8790}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCPConaoleLib", "TCPConaoleLib\TCPConaoleLib.csproj", "{C3F50733-BA82-4556-866A-6AE320CB8790}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TCPConosleChatClient", "TCPConosleChatClient\TCPConosleChatClient.csproj", "{2B049E55-737E-41BE-8319-084EA50287DA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCPConosleChatClient", "TCPConosleChatClient\TCPConosleChatClient.csproj", "{2B049E55-737E-41BE-8319-084EA50287DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerWPFUI", "ServerWPFUI\ServerWPFUI.csproj", "{769CA299-3200-4D04-BA8E-62F7328D747E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfChatClient", "WpfChatClient\WpfChatClient.csproj", "{25979AB6-F376-4042-9687-CC94ED44A9F3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +43,14 @@ Global
 		{2B049E55-737E-41BE-8319-084EA50287DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B049E55-737E-41BE-8319-084EA50287DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B049E55-737E-41BE-8319-084EA50287DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{769CA299-3200-4D04-BA8E-62F7328D747E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{769CA299-3200-4D04-BA8E-62F7328D747E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{769CA299-3200-4D04-BA8E-62F7328D747E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{769CA299-3200-4D04-BA8E-62F7328D747E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25979AB6-F376-4042-9687-CC94ED44A9F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25979AB6-F376-4042-9687-CC94ED44A9F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25979AB6-F376-4042-9687-CC94ED44A9F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25979AB6-F376-4042-9687-CC94ED44A9F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
