@@ -13,9 +13,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCPConaoleLib", "TCPConaole
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TCPConosleChatClient", "TCPConosleChatClient\TCPConosleChatClient.csproj", "{2B049E55-737E-41BE-8319-084EA50287DA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServerWPFUI", "ServerWPFUI\ServerWPFUI.csproj", "{769CA299-3200-4D04-BA8E-62F7328D747E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ServerWPFUI", "ServerWPFUI\ServerWPFUI.csproj", "{769CA299-3200-4D04-BA8E-62F7328D747E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfChatClient", "WpfChatClient\WpfChatClient.csproj", "{25979AB6-F376-4042-9687-CC94ED44A9F3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfChatClient", "WpfChatClient\WpfChatClient.csproj", "{25979AB6-F376-4042-9687-CC94ED44A9F3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleClientHttp", "ConsoleClientHttp\ConsoleClientHttp.csproj", "{48A5B3B5-48B3-4AA6-9C93-0C5B01029C1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -51,6 +53,10 @@ Global
 		{25979AB6-F376-4042-9687-CC94ED44A9F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{25979AB6-F376-4042-9687-CC94ED44A9F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{25979AB6-F376-4042-9687-CC94ED44A9F3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{48A5B3B5-48B3-4AA6-9C93-0C5B01029C1D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{48A5B3B5-48B3-4AA6-9C93-0C5B01029C1D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{48A5B3B5-48B3-4AA6-9C93-0C5B01029C1D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{48A5B3B5-48B3-4AA6-9C93-0C5B01029C1D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
