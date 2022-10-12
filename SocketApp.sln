@@ -19,7 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WpfChatClient", "WpfChatCli
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleClientHttp", "ConsoleClientHttp\ConsoleClientHttp.csproj", "{48A5B3B5-48B3-4AA6-9C93-0C5B01029C1D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMAP_POP3", "IMAP_POP3\IMAP_POP3.csproj", "{29236391-8180-4654-AC8F-915FA16E7153}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "IMAP_POP3", "IMAP_POP3\IMAP_POP3.csproj", "{29236391-8180-4654-AC8F-915FA16E7153}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_AsyncSocket_Server", "_AsyncSocket_Server\_AsyncSocket_Server.csproj", "{5014101D-790B-434C-9A17-DF680F35B65F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "_AsyncCleint_Socket", "_AsyncCleint_Socket\_AsyncCleint_Socket.csproj", "{DA453566-775D-40FE-92B5-F8B00E473033}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +67,14 @@ Global
 		{29236391-8180-4654-AC8F-915FA16E7153}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{29236391-8180-4654-AC8F-915FA16E7153}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{29236391-8180-4654-AC8F-915FA16E7153}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5014101D-790B-434C-9A17-DF680F35B65F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5014101D-790B-434C-9A17-DF680F35B65F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5014101D-790B-434C-9A17-DF680F35B65F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5014101D-790B-434C-9A17-DF680F35B65F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA453566-775D-40FE-92B5-F8B00E473033}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA453566-775D-40FE-92B5-F8B00E473033}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA453566-775D-40FE-92B5-F8B00E473033}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA453566-775D-40FE-92B5-F8B00E473033}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
